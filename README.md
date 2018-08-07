@@ -6,10 +6,10 @@ The Relayer Kit lets anyone become a crypto entrepreneur in just a few steps. No
 
 Getting started is simple:
 
--   👩‍💻 Fork the repo
--   🎨 Define your own style with our unopinionated React components
--   🚀 Deploy to Heroku
--   💸 Collect real cryptocurrency through relayer fees
+- 👩‍💻 Fork the repo
+- 🎨 Define your own style with our unopinionated React components
+- 🚀 Deploy to Heroku
+- 💸 Collect real cryptocurrency through relayer fees
 
 The Dharma Relayer Kit allows you &mdash; the entrepreneur &mdash; to focus on your business, and not the blockchain.
 
@@ -18,31 +18,31 @@ The Dharma Relayer Kit allows you &mdash; the entrepreneur &mdash; to focus on y
 
 # Table of Contents
 
--   [Getting Started](#getting-started)
-    -   [Clone](#clone)
-    -   [Dependencies](#dependencies)
-    -   [Blockchain](#blockchain)
-    -   [Backend](#backend)
-    -   [Frontend](#frontend)
--   [Running on the Kovan Testnet](#running-on-the-kovan-testnet)
-    -   [Backend](#backend-1)
-    -   [Frontend](#frontend-1)
--   [Deployment](#deployment)
-    -   [Create a new Heroku app](#create-a-new-heroku-app)
-    -   [Overwrite the app's files with your relayer kit](#overwrite-the-apps-files-with-your-relayer-kit)
-    -   [Open your new relayer on Heroku](#open-your-new-relayer-on-heroku)
--   [Troubleshooting](#troubleshooting)
-    -   [I'm getting an error that blockchain failed to start](#im-getting-an-error-that-blockchain-failed-to-start)
--   [FAQ](#faq)
-    -   [What is Dharma?](#what-is-dharma)
-    -   [What is a Dharma Relayer?](#what-is-a-dharma-relayer)
-    -   [Why start a Dharma Relayer?](#why-start-a-dharma-relayer)
-    -   [How does a Dharma Relayer make money?](#how-does-a-dharma-relayer-make-money)
-    -   [Are there existing Dharma Relayers?](#are-there-existing-dharma-relayers)
-    -   [Are all Dharma Relayers the same?](#are-all-dharma-relayers-the%C2%A0same)
-    -   [What is the approval process for becoming a Dharma Relayer?](#what-is-the-approval-process-for-becoming-a-dharma-relayer)
-    -   [What technical skills are required to operate a Dharma Relayer?](#what-technical-skills-are-required-to-operate-a-dharma-relayer)
-    -   [Do I need to conform to any specific branding when launching a Dharma relayer?](#do-i-need-to-conform-to-any-specific-branding-when-launching-a-dharma-relayer)
+- [Getting Started](#getting-started)
+  - [Clone](#clone)
+  - [Dependencies](#dependencies)
+  - [Blockchain](#blockchain)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Running on the Kovan Testnet](#running-on-the-kovan-testnet)
+  - [Backend](#backend-1)
+  - [Frontend](#frontend-1)
+- [Deployment](#deployment)
+  - [Create a new Heroku app](#create-a-new-heroku-app)
+  - [Overwrite the app's files with your relayer kit](#overwrite-the-apps-files-with-your-relayer-kit)
+  - [Open your new relayer on Heroku](#open-your-new-relayer-on-heroku)
+- [Troubleshooting](#troubleshooting)
+  - [I'm getting an error that blockchain failed to start](#im-getting-an-error-that-blockchain-failed-to-start)
+- [FAQ](#faq)
+  - [What is Dharma?](#what-is-dharma)
+  - [What is a Dharma Relayer?](#what-is-a-dharma-relayer)
+  - [Why start a Dharma Relayer?](#why-start-a-dharma-relayer)
+  - [How does a Dharma Relayer make money?](#how-does-a-dharma-relayer-make-money)
+  - [Are there existing Dharma Relayers?](#are-there-existing-dharma-relayers)
+  - [Are all Dharma Relayers the same?](#are-all-dharma-relayers-the%C2%A0same)
+  - [What is the approval process for becoming a Dharma Relayer?](#what-is-the-approval-process-for-becoming-a-dharma-relayer)
+  - [What technical skills are required to operate a Dharma Relayer?](#what-technical-skills-are-required-to-operate-a-dharma-relayer)
+  - [Do I need to conform to any specific branding when launching a Dharma relayer?](#do-i-need-to-conform-to-any-specific-branding-when-launching-a-dharma-relayer)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -118,14 +118,14 @@ Kovan Loan Requests - since Loan Requests for one blockchain will not be valid f
 likewise `NETWORK=mainnet` for mainnet.) An example of running this on your command line would be:
 
 ```
-NEWORK=kovan yarn server
+NETWORK=kovan yarn server
 ```
 
-This will run a server on port 8000, including your production app. 
+This will run a server on port 8000, including your production app.
 Visit your app on this server by visiting [http://localhost:8000](http://localhost:8000).
 
 Note: Changes you make to your app won't be reflected immediate when developing in this state.
-You need to rebuild your app and then restart your server to see changes. 
+You need to rebuild your app and then restart your server to see changes.
 
 ## Frontend
 
